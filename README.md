@@ -3,7 +3,8 @@
 ## Mini project
 
 I made this project in order to improve in javascript and practice the HTML and CSS as well.
-I created a **To do list** that it has as functionalities:
+
+So I created a **To do list** that it has as functionalities:
 * Add an element with a check box in front of it.
 * When the **checkbox** is cliked the item will get a *line-troug*.
 * There is also a remove button in case you don't want to do the task anymore or if you added sometting by mistake(or writted it wrong).
