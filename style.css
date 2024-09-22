@@ -1,0 +1,95 @@
+body {
+    background-color: #333;
+    color: #eee;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+}
+
+textarea {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    margin-bottom: 20px;
+}
+
+#task-list {
+    width: 300px; 
+}
+
+.task-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin: 10px 0;
+}
+
+.task-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task-item .label-item {
+    font-size: 22px;
+    color: #eee;
+}
+
+.active{
+    text-decoration:line-through;
+}
+
+
+.removeBtn{
+    margin: 10px;
+    border-radius: 15px;
+    background-color: crimson;
+    border: darkred;
+    color: #eee;
+}
+
+#text{
+    width: 300px;
+    height: 15px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px #111;
+    resize: none;
+    border: 2px solid #555;
+    transition: border-color 0.3s ease; 
+}
+
+#text:focus {
+    border-color: crimson; 
+}
+
+.removeAll{
+    width: 100px;
+    height: 30px;
+    color: #eee;
+    background-color: crimson;
+    border: 2px solid darkred;
+    border-radius: 15px;
+}
+
+.submit{
+    border: 1px solid #eee;
+    background-color: #333;
+    color: #eee;
+    width: 90px;
+    height: 25px;
+}
+
+.submit:hover, .removeAll:hover, .removeBtn:hover {
+    background-color: darkred; 
+    cursor: pointer; 
+}
+
+.submit:focus, .removeAll:focus, .removeBtn:focus {
+    outline: none; 
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7); 
+}
+
+
